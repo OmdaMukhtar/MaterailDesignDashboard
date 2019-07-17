@@ -12,57 +12,39 @@
     <div class="sidebar-wrapper">
       <ul class="nav">
         <li class="nav-item active  ">
-          <a class="nav-link" href="./dashboard.html">
+          <a class="nav-link" href="{{ url('admin/dashboard') }}">
             <i class="material-icons">dashboard</i>
-            <p>Dashboard</p>
+            <p>لوحة التحكم</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="./user.html">
+          <a class="nav-link" href="{{ url('profile') }}">
             <i class="material-icons">person</i>
-            <p>User Profile</p>
+            <p>الملف الشخصي</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="./tables.html">
-            <i class="material-icons">content_paste</i>
-            <p>Table List</p>
+          <a class="nav-link" href="{{ url('tables') }}">
+            <i class="material-icons">tables</i>
+            <p>الجداول</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="./typography.html">
-            <i class="material-icons">library_books</i>
+          <a class="nav-link" href="{{ url('typography') }}">
+            <i class="material-icons">lib_</i>
             <p>Typography</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="./icons.html">
-            <i class="material-icons">bubble_chart</i>
-            <p>Icons</p>
+          <a class="nav-link" href="{{ url('icons') }}">
+            <i class="material-icons">icons</i>
+            <p>الإيقونات</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="./map.html">
-            <i class="material-icons">location_ons</i>
-            <p>Maps</p>
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="./notifications.html">
+          <a class="nav-link" href="{{ url('notification') }}">
             <i class="material-icons">notifications</i>
-            <p>Notifications</p>
-          </a>
-        </li>
-        <li class="nav-item ">
-          <a class="nav-link" href="./rtl.html">
-            <i class="material-icons">language</i>
-            <p>RTL Support</p>
-          </a>
-        </li>
-        <li class="nav-item active-pro ">
-          <a class="nav-link" href="./upgrade.html">
-            <i class="material-icons">unarchive</i>
-            <p>Upgrade to PRO</p>
+            <p>الإشعارات</p>
           </a>
         </li>
       </ul>

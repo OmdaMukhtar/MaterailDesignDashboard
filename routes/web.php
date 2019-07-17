@@ -27,3 +27,10 @@ Route::get('admin/dashboard', function(){
 Route::group(['prefix' => 'admin', 'middlewere' => 'auth', 'namespace' => 'admin'], function(){
     Route::get('dashboatd', 'DashboardController@index')->name('admin.dashboatd');
 });
+
+/** All meterail design pages for dashboard  */
+Route::get('tables', 'PagesController@tables');
+Route::get('icons', 'PagesController@icons');
+Route::get('notification', 'PagesController@notification');
+Route::get('typography', 'PagesController@typography');
+Route::get('profile', 'PagesController@profile');
