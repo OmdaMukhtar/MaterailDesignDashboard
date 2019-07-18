@@ -7,7 +7,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>@yield('title')</title>
 
     <!-- Scripts -->
     <script src="{{ asset('js/app.js') }}" defer></script>
@@ -19,19 +19,13 @@
     <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
     <!-- CSS Files -->
-    {{-- <link rel="stylesheet" href="{{ asset('backend/material-dashboard.min.css') }}"> --}}
-    {{-- <link href="{{ asset('backend/css/material-dashboard.css')}}" rel="stylesheet" /> --}}
-    <!-- CSS Just for demo purpose, don't include it in your project -->
-    {{-- <link href="{{ asset('backend/css/material-dashboard-rtl.css') }}" rel="stylesheet" /> --}}
-    {{-- <link href="{{ asset('backend/demo/demo.css" rel="stylesheet')}}" rel="stylesheet"/> --}}
-    <!-- Styles -->
-
     <link href="{{ asset('backend/css/material-dashboard.css?v=2.1.0')}}" rel="stylesheet" />
     <link href="{{ asset('backend/css/material-dashboard-rtl.css?v=1.1')}}" rel="stylesheet" />
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="{{ asset('backend/demo/demo.css')}}" rel="stylesheet" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
+    @stack('css')
     
   <!-- Style Just for persian demo purpose, don't include it in your project -->
   <style>
@@ -96,6 +90,9 @@
  
        });
      </script>
+
+    @stack('scripts')
+
 
 </body>
 </html>

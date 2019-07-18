@@ -8,27 +8,26 @@ class PagesController extends Controller
 {
     public function tables()
     {
-        // return view('pages.dashboard');
-        return view('pages.tables');
+        return view('layouts.pages.tables');
     }
 
     public function icons()
     {
-        return view('pages.icons');
+        return view('layouts.pages.icons');
     }
 
     public function notification()
     {
-        return view('pages.notification');
+        return view('layouts.pages.notification');
     }
 
     public function typography()
     {
-        return view('pages.typography');
+        return view('layouts.pages.typography');
     }
 
     public function profile()
     {
-        return view('pages.profile');
+        return view('layouts.pages.profile');
     }
 }

@@ -18,31 +18,31 @@
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="{{ url('profile') }}">
+          <a class="nav-link" href="{{ url('admin/profile') }}">
             <i class="material-icons">person</i>
             <p>الملف الشخصي</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="{{ url('tables') }}">
+          <a class="nav-link" href="{{ url('admin/tables') }}">
             <i class="material-icons">tables</i>
             <p>الجداول</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="{{ url('typography') }}">
+          <a class="nav-link" href="{{ url('admin/typography') }}">
             <i class="material-icons">lib_</i>
             <p>Typography</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="{{ url('icons') }}">
+          <a class="nav-link" href="{{ url('admin/icons') }}">
             <i class="material-icons">icons</i>
             <p>الإيقونات</p>
           </a>
         </li>
         <li class="nav-item ">
-          <a class="nav-link" href="{{ url('notification') }}">
+          <a class="nav-link" href="{{ url('admin/notification') }}">
             <i class="material-icons">notifications</i>
             <p>الإشعارات</p>
           </a>
