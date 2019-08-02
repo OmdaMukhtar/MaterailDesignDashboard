@@ -12,5 +12,5 @@ php artisan serve
 ```
 
 # Demo 
- https://materail-design-dashboard.herokuapp.com/
+ https://materail-design-dashboard.herokuapp.com/admin/dashboard
 
