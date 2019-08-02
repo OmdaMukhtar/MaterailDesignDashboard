@@ -11,3 +11,6 @@ git clone https://github.com/abuoop/MaterailDesign-Dashboard.git
 php artisan serve
 ```
 
+# Demo 
+ https://materail-design-dashboard.herokuapp.com/
+
