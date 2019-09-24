@@ -1,4 +1,4 @@
-![alt text](https://raw.githubusercontent.com/OmdaMukhtar/MaterailDesignDashboard/master/public/img/dashboard.png)
+![alt text](https://raw.githubusercontent.com/OmdaMukhtar/MaterailDesignDashboard/master/public/backend/dashboardmateraildesign.png)
 # MaterailDesign Dashoard
 convert materail design dashboard into RTL
 
