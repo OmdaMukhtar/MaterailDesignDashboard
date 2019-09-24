@@ -1,9 +1,10 @@
+![alt text](https://raw.githubusercontent.com/OmdaMukhtar/MaterailDesignDashboard/master/public/img/dashboard.png)
 # MaterailDesign Dashoard
 convert materail design dashboard into RTL
 
 # How To Install
 ```
-git clone https://github.com/abuoop/MaterailDesign-Dashboard.git
+git clone https://github.com/OmdaMukhtar/MaterailDesignDashboard.git
 
 ```
 # Run serve 
